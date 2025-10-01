@@ -5,7 +5,7 @@ from .serializers import ListingSerializer, BookingSerializer
 
 
 def home(request):
-    return HttpResponse("Welcome to ALX Travel App!")
+    return HttpResponse("Welcome to ALX Travel App v2!")
 
 
 class ListingViewSet(viewsets.ModelViewSet):
